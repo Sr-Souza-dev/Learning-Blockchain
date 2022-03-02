@@ -1,5 +1,6 @@
 .image{
     text-align: center
+    width = 100%
 }
 
 # Blockchain
