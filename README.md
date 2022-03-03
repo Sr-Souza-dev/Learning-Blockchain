@@ -30,7 +30,7 @@ Para que um bloco seja corrompido/alterado, é necessário que este bloco e todo
 
 ## Mineração
 
-<img src="/images/Imutabilidade.png" width="400px">
+<img src="/images/Miner.png" width="400px">
 
 ### Competição
 Para que um node seja o escolhido para adicionar um bloco na rede, o blockchain separa de forma aleatória um conjunto de código hash aceitável. Como o codigo hash até o momento é gerado por dados imutáveis (previousHash e Data) fez-se necessário um novo itém gerador que foi chamado de Nonce (campo de 32 bits). Resumidamente, nonce é a contribuição do node para que o código hash esteja dentro do conjunto aceitável. Visto que a criptografia SHA-256 é não previsível, cada node tenta na força bruta (gera valores aleatórios) encontrar um nonce capaz de obter um hash desejado. O node que encontrar um hash aceito (um nonce que resolva o desafio) ganha o direito de inserir o bloco na rede.
