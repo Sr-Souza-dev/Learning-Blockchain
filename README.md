@@ -58,3 +58,8 @@ O criador de um novo bloco é escolhido de maneira pseudoaleatória, dependendo 
 
 ## Referências
 <a href="https://academy.bit2me.com/pt/o-que-%C3%A9-falha-bizantina/">Falhas Bizantima</a>
+
+
+# Cripto Moeda (Protocolo)
+Cada cripto (protocolo) está associada ao seu blockchain, estabelecendo regras que definem como os 'Nós' se comunicam (consenso, chaves publicas...)
+
